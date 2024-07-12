@@ -1,0 +1,40 @@
+.categories-list {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 18%;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .categories-list:hover {
+    transform: translateY(-3px);
+  }
+  
+  .categories-list ul {
+    list-style-type: none;
+    min-width: 40px ;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .categories-list ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .categories-list img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+.category-header{
+  padding: 20px;
+} 
